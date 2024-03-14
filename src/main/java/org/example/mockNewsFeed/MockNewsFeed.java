@@ -1,12 +1,11 @@
 package org.example.mockNewsFeed;
 
-import java.io.Serializable;
+
 import java.util.Random;
 
-public class MockNewsFeed implements Serializable {
+public class MockNewsFeed {
     private static final String[] WORDS = {"up", "down", "rise", "fall", "good", "bad", "success", "failure", "high", "low"};
     private static final Random random = new Random();
-    protected static final int PORT = 11111;
 
     public static String generateHeadline() {
         StringBuilder headline = new StringBuilder();

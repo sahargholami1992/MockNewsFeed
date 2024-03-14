@@ -10,10 +10,8 @@ import java.io.Serializable;
 @NoArgsConstructor
 @ToString
 public class NewsItem implements Serializable {
+
     private String headline;
     private int priority;
-
-
-
 
 }
